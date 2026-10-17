@@ -1,6 +1,6 @@
 # hironorimatsushita.github.io
 
-個人公開サイト https://hironorimatsushita.github.io のソースを置くリポです。本人専用の個人ツール(gcal-weekly等)を外部サービスへ登録する時に求められるホームページURL・プライバシーポリシーURLを提供します。
+個人公開サイト<https://hironorimatsushita.github.io>のソースを置くリポです。本人専用の個人ツール(gcal-weekly等)を外部サービスへ登録する時に求められるホームページURL・プライバシーポリシーURLを提供します。
 
 ## プロジェクト概要
 
@@ -11,7 +11,7 @@
 
 - `index.html`: ホームページ(日英)。公開中のアプリは本人専用で一般向けサービスではない旨を書く
 - `privacy.html`: gcal-weeklyのプライバシーポリシー(日英)
-- `.gitignore`: バイナリ除外のcanonicalブロック(sync-claude-review管理)。このリポはバイナリを持たない(repos.jsonで`binaries_created=false`)
+- `.gitignore`: バイナリ除外のcanonicalブロック(sync-claude-review管理)。このリポはバイナリを持たない(`~/.claude/repos.json`で`binaries_created=false`)
 
 ## 重要な制約
 
